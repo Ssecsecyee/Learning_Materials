@@ -7,8 +7,9 @@
 ## 1. 사전 준비 사항 (개인)
 모든 수강생은 아래 수업 전까지 반드시 완료해주세요.
 
-1. **GitHub 계정 생성**: [github.com](https://github.com)에서 가입.
-2. **Git 설치**: [git-scm.com](https://git-scm.com)에서 본인 OS에 맞는 Git 설치.
+1. **GitHub 계정 생성**: {https://github.com} 에서 가입합니다.
+2. **Git 설치**: {https://git-scm.com} 에서 본인 OS에 맞는 Git을 설치합니다.
+3. **VS Code 설치**: {https://code.visualstudio.com} 에서 Visual Studio Code를 설치하여 코드 작성 및 Git 연동 환경을 구축합니다.
 
 ---
 
