@@ -67,7 +67,13 @@
 ---
 
 ### 💡 [참고] 명령어 사용 순서 요약 (Workflow)
-1. **현재 상태 확인** (`git status`)
-2. **코드 추가** (`git add .`)
-3. **커밋 작성** (`git commit -m "작업 내용 설명"`)
-4. **서버 반영** (`git push origin [브랜치명]`)
+
+```bash
+# 1. 현재 프로젝트 변경 상태 확인 (어떤 파일이 수정되었는지 확인)
+git status
+# 2. 수정된 모든 파일을 업로드 대기 상태(Staging Area)로 추가
+git add .
+# 3. 변경 사항 최종 확정 및 의미 있는 메시지 기록
+git commit -m "수정 내용 요약 (예: 로그인 기능 구현)"
+# 4. 내 PC의 기록을 GitHub 원격 저장소로 업로드
+git push origin main
